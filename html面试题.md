@@ -62,7 +62,7 @@
 
 （5）input标签新增属性：placeholder、autocomplete、autofocus、required
 
-（6）history API：go、forward、back、pushstate
+（6）history API：go、forward、back、pushState
 
 **HTML5移除的元素有：**
 
@@ -384,7 +384,7 @@ mydiv.dataset.foo = "bar!!!"
 
 可以直接在img标签里添加onerror事件进行控制
 
-```html
+```markdown
     <img src="" onerror="javascript:this.src='xxx.jpg';">
     
     注意点：

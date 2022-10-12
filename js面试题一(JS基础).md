@@ -397,7 +397,7 @@ function foo() {
 
 ### 1.31 use strict是什么? 它有什么用？
 
-use strict 是一种 ECMAscript5 添加的（严格模式）运行模式，这种模式使得 Javascript 在更严格的条件下运行。设立严格模式的目的如下：
+use strict 是一种 ECMAScript5 添加的（严格模式）运行模式，这种模式使得 Javascript 在更严格的条件下运行。设立严格模式的目的如下：
 
 - 消除 Javascript 语法的不合理、不严谨之处，减少怪异行为;
 - 消除代码运行的不安全之处，保证代码运行的安全；
@@ -544,7 +544,7 @@ fetch的缺点：
 - 如果obj里面有时间对象，则JSON.stringify后再JSON.parse的结果，时间将只是字符串的形式，而不是对象的形式
 - 如果obj里面有RegExp，则打印出来是空对象
 - 如果对象中有函数或者undefined，则会直接被丢掉
-- 如果json里有对象是由构造函数生成的，则会丢掉对象的constructon
+- 如果json里有对象是由构造函数生成的，则会丢掉对象的construction
 
 ### 1.41 知道lodash吗？它有哪些常见的API ？
 
