@@ -180,14 +180,13 @@ this.$router.push( ) 可以不参数,根据传的值自动匹配是path还是nam
 
 A页面传参
 
-```csharp
+```vue
 this.$router.push({
     name: 'xxx', // 跳转的路由
     params: {
       id: id   // 发送的参数
     }
 })
-复制代码
 ```
 
 B页面接收传参：
@@ -198,14 +197,13 @@ this.$route.params.id
 
 A页面传参
 
-```kotlin
+```vue
 this.$router.push({
     path: '/xxx', // 跳转的路由
     query: {
       id: id    // 发送的参数
     }
 })
-复制代码
 ```
 
 B页面接参：

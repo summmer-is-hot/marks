@@ -200,7 +200,7 @@ app.component('组件名','组件对象')
 
 还可以这样写，这样写就可以访问父组件中的所有属性：
 
-![8.png](https://raw.githubusercontent.com/summmer-is-hot/marks/main/assets/vue/2_8.webp?
+![8.png](https://raw.githubusercontent.com/summmer-is-hot/marks/main/assets/vue/2_8.webp?)
 
 **注意：** 依赖注入所提供的属性是**非响应式**的。
 
